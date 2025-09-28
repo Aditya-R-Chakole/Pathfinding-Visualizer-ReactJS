@@ -1,30 +1,21 @@
 {
   "files": {
-    "main.css": "/Pathfinding-Visualizer-ReactJS/static/css/main.62d56de4.chunk.css",
-    "main.js": "/Pathfinding-Visualizer-ReactJS/static/js/main.072d0210.chunk.js",
-    "main.js.map": "/Pathfinding-Visualizer-ReactJS/static/js/main.072d0210.chunk.js.map",
-    "runtime-main.js": "/Pathfinding-Visualizer-ReactJS/static/js/runtime-main.425d2c37.js",
-    "runtime-main.js.map": "/Pathfinding-Visualizer-ReactJS/static/js/runtime-main.425d2c37.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/Pathfinding-Visualizer-ReactJS/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ba0807fb.chunk.js": "/Pathfinding-Visualizer-ReactJS/static/js/2.ba0807fb.chunk.js",
-    "static/js/2.ba0807fb.chunk.js.map": "/Pathfinding-Visualizer-ReactJS/static/js/2.ba0807fb.chunk.js.map",
+    "main.css": "/Pathfinding-Visualizer-ReactJS/static/css/main.6b8302c1.css",
+    "main.js": "/Pathfinding-Visualizer-ReactJS/static/js/main.63bc9140.js",
+    "static/media/page1.png": "/Pathfinding-Visualizer-ReactJS/static/media/page1.46ea13a7c6d85db9a591.png",
+    "static/media/gifWalls.gif": "/Pathfinding-Visualizer-ReactJS/static/media/gifWalls.f2e7bccda9ad13670470.gif",
+    "static/media/gifAlgo.gif": "/Pathfinding-Visualizer-ReactJS/static/media/gifAlgo.5c1d9eef00b9206803fa.gif",
+    "static/media/Oswald-Regular.ttf": "/Pathfinding-Visualizer-ReactJS/static/media/Oswald-Regular.19286529c18bfb11f802.ttf",
+    "static/media/Oswald-ExtraLight.ttf": "/Pathfinding-Visualizer-ReactJS/static/media/Oswald-ExtraLight.66ed4618910037c105f5.ttf",
+    "static/media/page2.png": "/Pathfinding-Visualizer-ReactJS/static/media/page2.5b7acf929495a4795eff.png",
+    "static/media/page62.png": "/Pathfinding-Visualizer-ReactJS/static/media/page62.84729c007a56de902ae7.png",
+    "static/media/close.png": "/Pathfinding-Visualizer-ReactJS/static/media/close.1ad4826b75e93d47401b.png",
     "index.html": "/Pathfinding-Visualizer-ReactJS/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/Pathfinding-Visualizer-ReactJS/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.62d56de4.chunk.css.map": "/Pathfinding-Visualizer-ReactJS/static/css/main.62d56de4.chunk.css.map",
-    "static/js/2.ba0807fb.chunk.js.LICENSE.txt": "/Pathfinding-Visualizer-ReactJS/static/js/2.ba0807fb.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/Pathfinding-Visualizer-ReactJS/static/media/Oswald-Regular.19286529.ttf",
-    "static/media/close.1ad4826b.png": "/Pathfinding-Visualizer-ReactJS/static/media/close.1ad4826b.png",
-    "static/media/gifAlgo.5c1d9eef.gif": "/Pathfinding-Visualizer-ReactJS/static/media/gifAlgo.5c1d9eef.gif",
-    "static/media/gifWalls.f2e7bccd.gif": "/Pathfinding-Visualizer-ReactJS/static/media/gifWalls.f2e7bccd.gif",
-    "static/media/page1.46ea13a7.png": "/Pathfinding-Visualizer-ReactJS/static/media/page1.46ea13a7.png",
-    "static/media/page2.5b7acf92.png": "/Pathfinding-Visualizer-ReactJS/static/media/page2.5b7acf92.png",
-    "static/media/page62.84729c00.png": "/Pathfinding-Visualizer-ReactJS/static/media/page62.84729c00.png"
+    "main.6b8302c1.css.map": "/Pathfinding-Visualizer-ReactJS/static/css/main.6b8302c1.css.map",
+    "main.63bc9140.js.map": "/Pathfinding-Visualizer-ReactJS/static/js/main.63bc9140.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.425d2c37.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ba0807fb.chunk.js",
-    "static/css/main.62d56de4.chunk.css",
-    "static/js/main.072d0210.chunk.js"
+    "static/css/main.6b8302c1.css",
+    "static/js/main.63bc9140.js"
   ]
 }
