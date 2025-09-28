@@ -217,24 +217,18 @@ const SideBar = ( props ) => {
                 </div>
             </div>
         </div>
-
-        <div className='navbar navbar-dark bg-dark'>
-            <div className='col-sm-3'>
+        <div className='navbar navbar-dark bg-dark nav-bar'>
+            <div className='nav-actions'>
                 <button onClick={()=>{openNav()}}
                     className='sidebar_open'>
                         ☰ Algorithms
                 </button>
-                &nbsp;&nbsp;
                 <button onClick={(e)=>{finalVisualise(e)}}
                     className='sidebar_open'>
                         Visualize
                 </button>
             </div>
-            <div className='col-sm-3'></div>
-            <div className='col-sm-3'></div>
-            <div className='col-sm-3'>
-              <div className='titleClass'><b>Pathfinding Visualiser</b></div>
-            </div>
+            <div className='titleClass nav-title'><b>Pathfinding Visualiser</b></div>
         </div>
     </>
   );

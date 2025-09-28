@@ -456,9 +456,9 @@ function Main() {
                 <p className='modelHeading_light' style={{fontSize:'25px', paddingTop:'2.5%'}}>Page 1</p>
               </div>
               <div className='col-sm-4' align="center">
-                <button onClick={()=>{setIsDone([1, 0, 0, 0, 0, 0])} } style={{width:'1%', visibility:'hidden'}} className='modalButton'>⯇</button>
+                <button onClick={()=>{setIsDone([1, 0, 0, 0, 0, 0])} } style={{width:'1%', visibility:'hidden'}} className='modalButton'>Back</button>
                 &nbsp;&nbsp;
-                <button onClick={()=>{setIsDone([0, 1, 0, 0, 0, 0])}} style={{width:'1%'}} className='modalButton'>⯈</button>
+                <button onClick={()=>{setIsDone([0, 1, 0, 0, 0, 0])}} style={{width:'1%'}} className='modalButton'>Next</button>
               </div>
             </div>
 
@@ -489,9 +489,9 @@ function Main() {
                 <p className='modelHeading_light' style={{fontSize:'25px', paddingTop:'2.5%'}}>Page 2</p>
               </div>
               <div className='col-sm-4' align="center">
-                <button onClick={()=>{setIsDone([1, 0, 0, 0, 0, 0])} } style={{width:'1%'}} className='modalButton'>⯇</button>
+                <button onClick={()=>{setIsDone([1, 0, 0, 0, 0, 0])} } style={{width:'1%'}} className='modalButton'>Back</button>
                 &nbsp;&nbsp;
-                <button onClick={()=>{setIsDone([0, 0, 1, 0, 0, 0])}} style={{width:'1%'}} className='modalButton'>⯈</button>
+                <button onClick={()=>{setIsDone([0, 0, 1, 0, 0, 0])}} style={{width:'1%'}} className='modalButton'>Next</button>
               </div>
             </div>
         </Modal>
@@ -521,9 +521,9 @@ function Main() {
                 <p className='modelHeading_light' style={{fontSize:'25px', paddingTop:'2.5%'}}>Page 3</p>
               </div>
               <div className='col-sm-4' align="center">
-                <button onClick={()=>{setIsDone([0, 1, 0, 0, 0, 0])} } style={{width:'1%'}} className='modalButton'>⯇</button>
+                <button onClick={()=>{setIsDone([0, 1, 0, 0, 0, 0])} } style={{width:'1%'}} className='modalButton'>Back</button>
                 &nbsp;&nbsp;
-                <button onClick={()=>{setIsDone([0, 0, 0, 1, 0, 0])}} style={{width:'1%'}} className='modalButton'>⯈</button>
+                <button onClick={()=>{setIsDone([0, 0, 0, 1, 0, 0])}} style={{width:'1%'}} className='modalButton'>Next</button>
               </div>
             </div>
         </Modal>
@@ -552,9 +552,9 @@ function Main() {
                 <p className='modelHeading_light' style={{fontSize:'25px', paddingTop:'2.5%'}}>Page 4</p>
               </div>
               <div className='col-sm-4' align="center">
-                <button onClick={()=>{setIsDone([0, 0, 1, 0, 0, 0])} } style={{width:'1%'}} className='modalButton'>⯇</button>
+                <button onClick={()=>{setIsDone([0, 0, 1, 0, 0, 0])} } style={{width:'1%'}} className='modalButton'>Back</button>
                 &nbsp;&nbsp;
-                <button onClick={()=>{setIsDone([0, 0, 0, 0, 1, 0])}} style={{width:'1%'}} className='modalButton'>⯈</button>
+                <button onClick={()=>{setIsDone([0, 0, 0, 0, 1, 0])}} style={{width:'1%'}} className='modalButton'>Next</button>
               </div>
             </div>
         </Modal>
@@ -585,9 +585,9 @@ function Main() {
                 <p className='modelHeading_light' style={{fontSize:'25px', paddingTop:'2.5%'}}>Page 5</p>
               </div>
               <div className='col-sm-4' align="center">
-                <button onClick={()=>{setIsDone([0, 0, 0, 1, 0, 0])} } style={{width:'1%'}} className='modalButton'>⯇</button>
+                <button onClick={()=>{setIsDone([0, 0, 0, 1, 0, 0])} } style={{width:'1%'}} className='modalButton'>Back</button>
                 &nbsp;&nbsp;
-                <button onClick={()=>{setIsDone([0, 0, 0, 0, 0, 1])}} style={{width:'1%'}} className='modalButton'>⯈</button>
+                <button onClick={()=>{setIsDone([0, 0, 0, 0, 0, 1])}} style={{width:'1%'}} className='modalButton'>Next</button>
               </div>
             </div>
         </Modal>
@@ -624,9 +624,9 @@ function Main() {
                 <p className='modelHeading_light' style={{fontSize:'35px'}}><b>Enjoy !</b></p>
               </div>
               <div className='col-sm-4' align="center">
-                <button onClick={()=>{setIsDone([0, 0, 0, 0, 1, 0])} } style={{width:'1%'}} className='modalButton'>⯇</button>
+                <button onClick={()=>{setIsDone([0, 0, 0, 0, 1, 0])} } style={{width:'1%'}} className='modalButton'>Back</button>
                 &nbsp;&nbsp;
-                <button onClick={()=>{setIsDone([0, 0, 0, 0, 0, 0])}} style={{width:'1%'}} className='modalButton'>⯈</button>
+                <button onClick={()=>{setIsDone([0, 0, 0, 0, 0, 0])}} style={{width:'1%'}} className='modalButton'>Next</button>
               </div>
             </div>
         </Modal>
@@ -661,10 +661,10 @@ function Main() {
           parentCallback = {handleCallBack}/>
 
 
-        <div className="container col-12">
-          <div className="row">
-            <div className="col-lg-12"
-              style={{paddingLeft:'1.5px', paddingTop:'1.5px'}}>
+        <div className="container-fluid px-0">
+          <div className="row mx-0">
+            <div className="col-12 px-0"
+              style={{paddingTop:'1.5px'}}>
               {drawGrid(grid)}
             </div>
               {tutorialPage()}

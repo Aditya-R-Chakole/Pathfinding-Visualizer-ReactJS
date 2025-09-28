@@ -1,18 +1,32 @@
-.node {
+.node,
+.node-start,
+.node-end,
+.node-wall {
   border: 1.5px solid #94bcd2;
   border-radius: 1px;
 
   background-color: #f8f8ff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .node-start {
-  border: 1.5px solid #94bcd2;
+  background-color: #f8f8ff;
   background-image: url(../../fontsAndImg/start.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
 }
 
 .node-end {
-  border: 1.5px solid #94bcd2;
+  background-color: #f8f8ff;
   background-image: url(../../fontsAndImg/end.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
 }
 
 .node-wall {

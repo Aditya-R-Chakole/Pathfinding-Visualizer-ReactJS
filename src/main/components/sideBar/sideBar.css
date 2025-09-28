@@ -198,6 +198,32 @@
   background-color: #374785 !important;
 }
 
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 1.75rem;
+  gap: 1rem;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-actions .sidebar_open {
+  width: auto;
+  min-width: 140px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.nav-title {
+  padding-left: 0;
+  text-align: right;
+}
+
 .titleClass {
   font-family: "Oswald-ExtraLight", sans-serif;
   font-size: 35px;
