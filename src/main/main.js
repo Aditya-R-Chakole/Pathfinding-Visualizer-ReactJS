@@ -219,7 +219,9 @@ function Main() {
     for( let i=1;i<finalPath.length;i++ ){
       setTimeout(() => {
         const node = finalPath[i];
-        document.getElementById(`node-${node.x}-${node.y}`).className = 'node node-shortest-path';
+        if(!((node.x === start_x && node.y === start_y) || (node.x === end_x && node.y === end_y))){
+          document.getElementById(`node-${node.x}-${node.y}`).className = 'node node-shortest-path';
+        }
       }, 10*i/speedFactor);
 
       if( i === finalPath.length-1 ){
@@ -242,7 +244,9 @@ function Main() {
         // console.log(i, vn[i]);
         setTimeout(() => {
           const node = vn[i];
-          document.getElementById(`node-${node.x}-${node.y}`).className = 'node node-visited';
+          if(!((node.x === start_x && node.y === start_y) || (node.x === end_x && node.y === end_y))){
+            document.getElementById(`node-${node.x}-${node.y}`).className = 'node node-visited';
+          }
         }, 10*i/speedFactor);
       }
     }
