@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pathfinding-Visualizer-ReactJS/static/css/main.ecb8bf45.css",
-    "main.js": "/Pathfinding-Visualizer-ReactJS/static/js/main.63bc9140.js",
+    "main.js": "/Pathfinding-Visualizer-ReactJS/static/js/main.70c8ddd8.js",
     "static/media/page1.png": "/Pathfinding-Visualizer-ReactJS/static/media/page1.46ea13a7c6d85db9a591.png",
     "static/media/gifWalls.gif": "/Pathfinding-Visualizer-ReactJS/static/media/gifWalls.f2e7bccda9ad13670470.gif",
     "static/media/gifAlgo.gif": "/Pathfinding-Visualizer-ReactJS/static/media/gifAlgo.5c1d9eef00b9206803fa.gif",
@@ -12,10 +12,10 @@
     "static/media/close.png": "/Pathfinding-Visualizer-ReactJS/static/media/close.1ad4826b75e93d47401b.png",
     "index.html": "/Pathfinding-Visualizer-ReactJS/index.html",
     "main.ecb8bf45.css.map": "/Pathfinding-Visualizer-ReactJS/static/css/main.ecb8bf45.css.map",
-    "main.63bc9140.js.map": "/Pathfinding-Visualizer-ReactJS/static/js/main.63bc9140.js.map"
+    "main.70c8ddd8.js.map": "/Pathfinding-Visualizer-ReactJS/static/js/main.70c8ddd8.js.map"
   },
   "entrypoints": [
     "static/css/main.ecb8bf45.css",
-    "static/js/main.63bc9140.js"
+    "static/js/main.70c8ddd8.js"
   ]
 }
